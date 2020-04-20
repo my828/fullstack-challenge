@@ -1,7 +1,6 @@
 addEventListener("fetch", event => {
   event.respondWith(handleRequest(event.request));
 });
-
 /**
  * Return specific cookie value 
  * Code credit: https://stackoverflow.com/questions/10730362/get-cookie-by-name
